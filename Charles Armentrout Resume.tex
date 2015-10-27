@@ -1,0 +1,92 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\addtolength{\oddsidemargin} {-.5in}
+\usepackage[top=.5in, left=0.8in, bottom=.5in, right=0.8in]{geometry}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\bmargin}{-.5in}
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=6in % increase textwidth to get smaller right margin
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\begin{document} 
+\name{Charles Henry Armentrout V\\ www.linkedin.com/in/charmentroutv} %[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Present Address} \\ 906 Belhaven Rd. \\ Cary, NC 27513  \\
+        (336) 681-7224 }
+\address{{\bf Permanent Address} \\ 114 East Keeling Rd \\ Greensborbo, NC 27410 \\
+        (336) 299-7703 }
+ 
+\begin{resume} 
+
+\noindent\makebox[5in]{\rule{6in}{0.4pt}}
+
+
+\section{Career Profile} 
+Passionate programmer who undertakes complex projects utilizing knowledge of Python, C\#, Bash, JavaScript, and HTML5. Possesses practical experience in Linux installation, maintenance, and configuration, database design and integration, deployment and containerization, and also possesses strong interpersonal skills for successful team work and collaboration. Thrives in a fast-paced environment and actively seeks innovative and adaptable solutions to technological issues.
+
+\section{Professional Experience}
+  {\bf Software Engineer,} Deloitte, Morrisville, NC \hfill Jul 2014-Present
+    \begin{itemize} \itemsep -2pt
+     \item Design and implement software solutions to fill business needs based on business logic specifications.
+     \item Lead maintenance of legacy system.
+     \item Implement infrastructure and orchestration of API based parallel service container platform using Docker, Apache Zookeeper, NGINX, Vagrant, and Cassandra DB.
+     \item Develop and maintain full-stack web-facing applications utilizing a python based backend.
+     \end{itemize}
+  
+  {\bf Software Developer,} ICF International, Martinsville, VA \hfill Dec 2013-Jul 2014
+    \begin{itemize} \itemsep -2pt  % reduce space between items
+      \item Architect and write applications in C\#
+      \item Integrate applications with MS SQL Server, SharePoint, and other services
+      \item Use API services, HTTP requests, and TCP connections to consolidate information from multiple services and applications in C\# and Python
+      \item Create custom web forms using JavaScript, HTML5, and ASP .NET with C\#
+      \item Design and build database schema to support projects and applications
+      \item Automate previously manual reporting processes
+    \end{itemize}
+
+ 
+  {\bf Analyst,} Supplemental Software Solutions, Greensboro, NC \hfill  Sep 2012-Dec 2013
+    \begin{itemize} \itemsep -2pt %reduce space between items
+      \item Organize data and built reports for a variety of major retail suppliers
+      \item Write batch processes to load data into database
+      \item Write SQL scripts and queries to organize data into customized formats
+      \item Use Microsoft Excel and other Microsoft Office products to transport the data to customers
+      \item Write VBA macros to allow users to manipulate data further at run time
+      \item Use daily and weekly sales data to craft reports highlighting various business metrics over time that users receive automatically on a daily or weekly basis
+      \item Utilize SQL Server Reporting Services to make web based reports that users can access at any time per custom request
+      \item Parse and translate EDI 850 output into SQL database using C\#
+    \end{itemize}
+
+\section{Notable Work} 
+  {\bf Managed Service Platform,} Deloitte \hfill 2015 \\
+    Implemented infrastructure of a REST API / Docker Container based platform for hosting services on demand. Services are automatically detected and registered when initialized and they can discover and communicate with each other via a RESTful API model for collaboration on solving business problems. The dynamic nature of the platform allows for rapid scaling to accommodate fluctuating load on terabyte-plus sized data and the services are load-balanced using NGINX upstream routing.
+%\newpage
+    
+  {\bf Check Escheatment System,} ICF International \hfill 2014 \\
+    Given the task of managing and reporting on the escheatment of un-cashed checks from rebate offers for energy clients. Designed custom database structure and tables, system of C\# console applications, and SharePoint site to automatically keep information up to date and easily accessible to users. System is currently used to manage rebate checks for all energy clients.
+
+\section{Education} 
+  {\bf Appalachian State University,} Boone, NC \hfill May 2012
+    \begin{itemize} \itemsep -2pt
+      \item Bachelor of Science, Finance and Banking, GPA 3.29
+      \item Bachelor of Science, Risk Management and Insurance, GPA 3.29
+    \end{itemize}
+
+\section{Academic \\ Honors} 
+  Dean's List, (Spring 2011, Fall 2011, Spring 2012) \\
+  Chancellor's List, (Fall 2009) \\
+  \begin{tabular}{l p{4.5in}}
+    \underline{Selected Courses:} & \raggedright Derivative Investments, Enterprise Risk Management, Commercial Banking, Business Management, Financial Management \\
+  \end{tabular}
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{5in}}
+    \underline{Languages:} & \raggedright Python, C\#, Bash, JavaScript, HTML5, VBA Script, Batch, Perl, SQL, CQL, \LaTeX\\
+   \end{tabular}
+   \begin{tabular}{l p{5in}}
+    \underline{Frameworks/Systems:} & \raggedright Flask, Docker, Vagrant, Ansible, GIT, Zookeeper, NGINX
+ \end{tabular}
+\end{resume} 
+\end{document} 
