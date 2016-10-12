@@ -1,0 +1,37 @@
+PWD /Users/carmentrout/code/latex
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/latex.fmt
+INPUT Charles Armentrout Resume.tex
+OUTPUT Charles Armentrout Resume.log
+INPUT res.cls
+INPUT res.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT helvetica.sty
+INPUT helvetica.sty
+INPUT Charles Armentrout Resume.aux
+INPUT Charles Armentrout Resume.aux
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
+OUTPUT Charles Armentrout Resume.dvi
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
