@@ -1,0 +1,85 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\addtolength{\oddsidemargin} {-.5in}
+\usepackage[top=.5in, left=0.8in, bottom=.5in, right=0.8in]{geometry}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\bmargin}{-.5in}
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=6in % increase textwidth to get smaller right margin
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\begin{document} 
+\name{Charles Henry Armentrout V\\ www.linkedin.com/in/charmentroutv} %[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Present Address} \\ 10110 Strome Ave. Apt 107 \\ Raleigh, NC 27617  \\
+        (336) 681-7224 }
+\address{{\bf Permanent Address} \\ 114 East Keeling Rd \\ Greensborbo, NC 27410 \\
+        (336) 299-7703 }
+ 
+\begin{resume} 
+
+\noindent\makebox[5in]{\rule{6in}{0.4pt}}
+
+
+\section{Career Profile} 
+Passionate programmer who undertakes complex projects utilizing knowledge of Python, Docker, Bash, JavaScript, etc. Possesses practical experience in Linux installation, maintenance, and configuration, database design and integration, deployment and containerization, and also possesses strong interpersonal skills for successful team work and collaboration. Thrives in a fast-paced environment and actively seeks innovative and adaptable solutions to technological issues.
+
+\section{Professional Experience}
+  {\bf Senior Software Engineer,} Cisco Systems, Durham, NC \hfill Jan 2017-Present
+    \begin{itemize} \itemsep -2pt
+      \item Architect database schema for web application backend
+      \item Architect and implement REST API for web-to-backend communication in Flask
+      \item Design and implement Network Devices testing platform in python
+      \item Automate deployment of multiple applications with Docker and Docker-Compose
+      \item Debug and Maintain Kuberetes-based application infrastructure
+      \item Advocate and eventually implement Agile development process practices
+    \end{itemize}
+
+  {\bf Software Engineer,} Deloitte, Morrisville, NC \hfill Jul 2014-Jan 2017
+    \begin{itemize} \itemsep -2pt
+     \item Design and implement software solutions to fill business needs based on business logic specifications.
+     \item Lead maintenance of legacy system.
+     \item Implement infrastructure and orchestration of API based parallel service container platform using Docker, Apache Zookeeper, NGINX, Vagrant, and Cassandra DB.
+     \item Develop and maintain full-stack web-facing applications utilizing a python backend.
+     \end{itemize}
+  
+  {\bf Software Developer,} ICF International, Martinsville, VA \hfill Dec 2013-Jul 2014
+    \begin{itemize} \itemsep -2pt  % reduce space between items
+      \item Architect and write applications in C\#
+      \item Integrate applications with MS SQL Server, SharePoint, and other services
+      \item Use API services, HTTP requests, and TCP connections to consolidate information from multiple services and applications in C\# and Python
+      \item Create custom web forms using JavaScript, HTML5, and ASP .NET with C\#
+      \item Design and build database schema to support projects and applications
+      \item Automate previously manual reporting processes
+    \end{itemize}
+
+ 
+  {\bf Analyst,} Supplemental Software Solutions, Greensboro, NC \hfill  Sep 2012-Dec 2013
+    \begin{itemize} \itemsep -2pt %reduce space between items
+      \item Organize data and built reports for a variety of major retail suppliers
+      \item Parse and translate EDI 850 output into SQL database using C\#
+      \item Write batch processes to load data into database
+      \item Write SQL scripts and queries to organize data into customized formats
+      \item Write VBA macros to allow users to manipulate data at run time
+    \end{itemize}
+
+    
+\section{Education} 
+  {\bf Appalachian State University,} Boone, NC \hfill May 2012
+    \begin{itemize} \itemsep -2pt
+      \item B.S. Finance and Banking
+      \item B.S. Risk Management and Insurance
+    \end{itemize}
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{5in}}
+    \underline{Languages:} & \raggedright Python, C\#, Bash, JavaScript, HTML5, Haskell, VBA Script, Batch, Perl, SQL, CQL, \LaTeX\\
+   \end{tabular}
+   \begin{tabular}{l p{5in}}
+    \underline{Frameworks/Systems:} & \raggedright Flask, Docker, Docker-Compose, Kubernetes, Vagrant, Ansible, git, Zookeeper, NGINX
+ \end{tabular}
+\end{resume} 
+\end{document} 
