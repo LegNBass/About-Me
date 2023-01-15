@@ -1,0 +1,147 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Charles Henry Armentrout V}}\\
+	Raleigh, NC $\cdot$ charmentroutv@gmail.com $\cdot$ 3366817224\\
+\end{center}
+
+%==== Experience ====%
+\header{Professional Experience}
+\vspace{1mm}
+
+\textbf{SignalPath / Verily} \hfill Raleigh, NC\\
+\textit{Senior Engineer} \hfill Feb 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Authored multiple architecture solutions for a greenfield financial ledger service to replace a legacy system and provide significant performance increases and new features.
+	\item Performed interviews and mentored junior developers as they got up to speed on our technologies and systems
+	\item Worked as part of an on-call team to rapidly respond to production issues if needed
+	\item Scala, SQL, Slick, Finatra, Doobie
+\end{itemize}
+\textbf{The McClatchy Company} \hfill Raleigh, NC\\
+\textit{Lead Engineer} \hfill Feb 2020 - Jan 2021\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Lead a team of remote engineers to update and modernize an ETL system for serverless architecture.
+	\item Helped lead company technical strategy toward a less human resource intensive solution
+	\item Cut infrastructure costs significantly by redesigning serverless strategy
+	\item Python, S3, Lmabda, Glue, SQS
+\end{itemize}
+\textbf{Credit Suisse} \hfill Durham, NC\\
+\textit{Automation Architect} \hfill Nov 2019 - Feb 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Contracted to design an automation solution for security response workflows
+	\item Python, Flask
+\end{itemize}
+\textbf{Cisco Systems} \hfill Durham, NC\\
+\textit{Software Engineer / Senior Engineer} \hfill Jan 2017 - Nov 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Engineer backend systems for network test automation application
+	\item Design and implement system for performing network tests remotely
+	\item Design and maintain application API through multiple versions and changes
+	\item Python, Flask, Robot, TextFSM, Docker, K8S
+\end{itemize}
+\textbf{Deloitte} \hfill Morrisville, NC\\
+\textit{Software Engineer} \hfill Jun 2014 - Jan 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Maintained legacy python systems
+	\item Refactored legacy systems into a microservice architecture
+	\item Built tooling for service discovery and communication
+	\item Python, SQL, Flask
+\end{itemize}
+
+%==== Education ====%
+\header{Education}
+\textbf{Appalachian State University}\hfill Boone, NC\\
+BS Finance and Banking \textbar{} Risk Management \hfill 2008 - 2012\\
+\vspace{2mm}
+
+
+
+\header{Projects}
+{\textbf{Ledger}} {\sl Scala, Slick, SQL} \\
+Source of truth for accounting system. Listens to pipelines from multiple services, constantly comparing events against state to determine costs / charges associated with various business activity. High traffic, no tolerance for error, constant availability.\\
+\vspace*{2mm}
+{\textbf{CXTM}} {\sl Python, Flask, SQL, SQLAlchemy, Robot, TextFSM} \\
+System for tracking network test plans, execution history, and the actual execution of those tests on remote devices. REST API and all backend business logic.\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}
