@@ -1,0 +1,149 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Charles} \headerlastnamestyle{Henry Armentrout V} \\
+	\vspace{2mm}
+	{\faEnvelope\ charlie@armentrout.dev} | {\faMobile\ 3366817224} | {\faMapMarker\ Raleigh, NC}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Professional Experience}
+\begin{cventries}
+	\cventry
+	{Senior Engineer}
+	{SignalPath / Verily}
+	{Raleigh, NC}
+	{Feb 2021 – Present}
+	{\begin{cvitems}
+		\item {Authored multiple architecture solutions for a greenfield financial ledger service to replace a legacy system and provide significant performance increases and new features.}
+		\item {Performed interviews and mentored junior developers as they got up to speed on our technologies and systems}
+		\item {Worked as part of an on-call team to rapidly respond to production issues if needed}
+		\item {Scala, SQL, Slick, Finatra, Doobie}
+		\end{cvitems}}
+	\cventry
+	{Lead Engineer}
+	{The McClatchy Company}
+	{Raleigh, NC}
+	{Feb 2020 – Jan 2021}
+	{\begin{cvitems}
+		\item {Lead a team of remote engineers to update and modernize an ETL system for serverless architecture.}
+		\item {Helped lead company technical strategy toward a less human resource intensive solution}
+		\item {Cut infrastructure costs significantly by redesigning serverless strategy}
+		\item {Python, S3, Lmabda, Glue, SQS}
+		\end{cvitems}}
+	\cventry
+	{Automation Architect}
+	{Credit Suisse}
+	{Durham, NC}
+	{Nov 2019 – Feb 2020}
+	{\begin{cvitems}
+		\item {Contracted to design an automation solution for security response workflows}
+		\item {Python, Flask}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer / Senior Engineer}
+	{Cisco Systems}
+	{Durham, NC}
+	{Jan 2017 – Nov 2019}
+	{\begin{cvitems}
+		\item {Engineer backend systems for network test automation application}
+		\item {Design and implement system for performing network tests remotely}
+		\item {Design and maintain application API through multiple versions and changes}
+		\item {Python, Flask, Robot, TextFSM, Docker, K8S}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
+	{Deloitte}
+	{Morrisville, NC}
+	{Jun 2014 – Jan 2017}
+	{\begin{cvitems}
+		\item {Maintained legacy python systems}
+		\item {Refactored legacy systems into a microservice architecture}
+		\item {Built tooling for service discovery and communication}
+		\item {Python, SQL, Flask}
+		\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Finance and Banking \textbar{} Risk Management}
+	{Appalachian State University}
+	{Boone, NC}
+	{2008 – 2012}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Source of truth for accounting system. Listens to pipelines from multiple services, constantly comparing events against state to determine costs / charges associated with various business activity. High traffic, no tolerance for error, constant availability.}
+	{Ledger}
+	{Scala, Slick, SQL}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{System for tracking network test plans, execution history, and the actual execution of those tests on remote devices. REST API and all backend business logic.}
+	{CXTM}
+	{Python, Flask, SQL, SQLAlchemy, Robot, TextFSM}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+\ 
+\end{document}
