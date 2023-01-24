@@ -11,4 +11,4 @@ I also enjoy teaching and mentoring junior engineers, or just anyone that wants 
 [Here's a link to my résumé](./resume.pdf)
 
 ## Fun Stuff
-[Make Grateful Dead Themed Profile Images](./steely)
+[Make Grateful Dead Themed Profile Images](./stealy)
