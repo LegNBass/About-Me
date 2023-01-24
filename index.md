@@ -9,3 +9,6 @@ My entire life has been spent voraciously learning new things, and that's not ch
 I also enjoy teaching and mentoring junior engineers, or just anyone that wants to learn something I know a lot about! My time as a team lead was especially enjoyed and I hope to return to leadership again one day soon.
 
 [Here's a link to my résumé](./resume.pdf)
+
+## Fun Stuff
+[Make Grateful Dead Themed Profile Images](./steely)
