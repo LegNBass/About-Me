@@ -11,9 +11,8 @@ I also enjoy teaching and mentoring junior engineers, or just anyone that wants 
 [Here's a link to my résumé](./resume.pdf)
 
 ## Fun Stuff
-I usually make season-appropriate slack/discord profile images inside steal-your-face skulls with a little JS app I hacked together back in 2017. I might port it to elm soon.
-
-[Make Grateful Dead Themed Profile Images](./stealy)
+- [Put your slack image in a steal-your-face skull](./stealy)
+- [Generate a random (beautiful) BINGO card with the power of elm](./bingo)
 
 ## Current Interests
 Now that I have a little more free time on my hands, I'm expanding my knowledge of functional programming and exploring a bit more of the front-end by learning [elm](https://elm-lang.org/)
