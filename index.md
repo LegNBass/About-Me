@@ -13,10 +13,11 @@ I also enjoy teaching and mentoring junior engineers, or just anyone that wants 
 ## Fun Stuff
 - [Put your slack image in a steal-your-face skull](./stealy)
 - [Generate a random (beautiful) BINGO card with the power of elm](./bingo)
+    - [And view the source code](https://github.com/LegNBass/bingo)
 
 ## Current Interests
 Now that I have a little more free time on my hands, I'm expanding my knowledge of functional programming and exploring a bit more of the front-end by learning [elm](https://elm-lang.org/)
 
-My first project has been a [bingo card generator](https://github.com/LegNBass/bingo) designed to help me learn to interact with the DOM, utilize random number generators in a pure language, and familiarize myself with the elm architecture patterns and concepts.
+My first project has been a bingo card generator (source and output in the section above) designed to help me learn to interact with the DOM, utilize random number generators in a pure language, and familiarize myself with the elm architecture patterns and concepts.
 
 I will be writing more, and I'll probably split this section out into a blog when I do.
