@@ -42,13 +42,13 @@
 %%% Override a separator for social informations in header(default: ' | ')
 %\headersocialsep[\quad\textbar\quad]
     \begin{document}
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Profile
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
 	\headerlastnamestyle{Charles Henry Armentrout V} \\
-	\vspace{2mm}
+	\vspace{1mm}
 	{\faEnvelope\ charlie@armentrout.dev} | {\faMobile\ 3366817224} | {\faMapMarker\ Raleigh, NC}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,15 +57,15 @@
 \cvsection{Professional Experience}
 \begin{cventries}
 	\cventry
-	{Senior Engineer}
+	{Senior Software Engineer}
 	{SignalPath / Verily}
 	{Raleigh, NC}
 	{Feb 2021 – Present}
 	{\begin{cvitems}
-		\item {Authored multiple architecture solutions for a greenfield financial ledger service to replace a legacy system and provide significant performance increases and new features.}
-		\item {Performed interviews and mentored junior developers as they got up to speed on our technologies and systems}
-		\item {Worked as part of an on-call team to rapidly respond to production issues if needed}
-		\item {Scala, SQL, Slick, Finatra, Doobie}
+		\item {Architect and implement a greenfield financial ledger service to replace a legacy system and provide significant performance increases and new features}
+		\item {Performed interviews and mentored junior developers in software best practices, object oriented, and functional architecture paradigms}
+		\item {Core contributor or sole author of many back-end features and bug fixes across a suite of various Scala microservices}
+		\item {Scala, Postgres SQL, Slick, Finatra, Doobie, Cats, Scalaz, Kinesis, Docker}
 		\end{cvitems}}
 	\cventry
 	{Lead Engineer}
@@ -73,10 +73,10 @@
 	{Raleigh, NC}
 	{Feb 2020 – Jan 2021}
 	{\begin{cvitems}
-		\item {Lead a team of remote engineers to update and modernize an ETL system for serverless architecture.}
-		\item {Helped lead company technical strategy toward a less human resource intensive solution}
-		\item {Cut infrastructure costs significantly by redesigning serverless strategy}
-		\item {Python, S3, Lambda, Glue, SQS}
+		\item {Lead a team of remote engineers to update and modernize an ETL system and data warehouse for cloud-native architecture}
+		\item {Helped lead data platform strategy decisions}
+		\item {Refactored, reviewed, and mentored team on python development practices to increase code quality, coverage, and testability across the platform}
+		\item {Python, AWS, S3, Lambda, Glue, DynamoDB, RDS, Spark, Kinesis, SQS, Redshift}
 		\end{cvitems}}
 	\cventry
 	{Automation Architect}
@@ -85,18 +85,18 @@
 	{Nov 2019 – Feb 2020}
 	{\begin{cvitems}
 		\item {Contracted to design an automation solution for security response workflows}
-		\item {Python, Flask}
+		\item {Python, Flask, Splunk SOAR}
 		\end{cvitems}}
 	\cventry
-	{Software Engineer / Senior Engineer}
+	{Software Engineer / Senior Software Engineer}
 	{Cisco Systems}
 	{Durham, NC}
 	{Jan 2017 – Nov 2019}
 	{\begin{cvitems}
-		\item {Engineer backend systems for network test automation application}
+		\item {Engineer back-end systems for network test automation application}
 		\item {Design and implement system for performing network tests remotely}
-		\item {Design and maintain application API through multiple versions and changes}
-		\item {Python, Flask, Robot, TextFSM, Docker, K8S}
+		\item {Design and update API through multiple versions and changes}
+		\item {Python, Postgres SQL, Flask, REST, Robot, TextFSM, Docker, Kubernetes, Linux, Bash, SSH, SFTP, Networking}
 		\end{cvitems}}
 	\cventry
 	{Software Engineer}
@@ -107,7 +107,7 @@
 		\item {Maintained legacy python systems}
 		\item {Refactored legacy systems into a microservice architecture}
 		\item {Built tooling for service discovery and communication}
-		\item {Python, SQL, Flask}
+		\item {Python, Postgres SQL, Flask, CassandraDB}
 		\end{cvitems}}
 \end{cventries}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -123,32 +123,32 @@
 	{}
 \end{cventries}
 
-\vspace{-4mm}
+\vspace{-5mm}
 
 \cvsection{Projects}
 \begin{cventries}
 	\cventry
-	{Source of truth for accounting system. Listens to pipelines from multiple services, constantly comparing events against state to determine costs / charges associated with various business activity. High traffic, no tolerance for error, constant availability.}
+	{Financial micro-service. Source of truth for accounting system. Listens to multiple services, constantly comparing events against state to determine costs / charges associated with various business activity. High traffic, no tolerance for error, constant availability.}
 	{Ledger}
-	{Scala, Slick, SQL}
+	{Scala, Slick, Postgres SQL}
 	{}
 	{}
-	
+
 	\vspace{-5mm}
 	\cventry
-	{System for tracking network test plans, execution history, and the actual execution of those tests on remote devices. REST API and all backend business logic.}
+	{System for tracking network test plans, execution history, and the actual execution of those tests on remote devices. REST API and all back-end business logic.}
 	{CXTM}
-	{Python, Flask, SQL, SQLAlchemy, Robot, TextFSM}
+	{Python, Flask, SQL, SQLAlchemy, Robot, TextFSM, Bash, Linux, SSH, SFTP, TCP}
 	{}
 	{}
-	
+
 	\vspace{-5mm}
 	\cventry
-	{Cloud data system for ingesting, sorting, and storing data, using no local resources whatsoever. Querying system for retreiving and using data.}
-	{ETL / Data Storage}
-	{Python, AWS(S3, Glue, DynamoDB, Lambda, RDS, Athena)}
+	{Cloud-native data warehouse and pipelines for ingesting, transforming, sorting, and storing data, using no local resources whatsoever. Querying system for retrieving and analyzing data.}
+	{ETL / Data Warehouse}
+	{Python, Spark, AWS (S3, Glue, DynamoDB, Lambda, RDS, Athena, Kinesis, Redshift)}
 	{}
 	{}
-	
+
 \end{cventries}
 \end{document}
