@@ -11,7 +11,7 @@ I also enjoy teaching and mentoring junior engineers, or just anyone that wants 
 [Here's a link to my résumé](./resume.pdf)
 
 ## Fun Stuff
-- [Put your slack image in a steal-your-face skull](./stealy)
+- [Put your slack image in a steal-your-face skull](./stealie)
 - [Generate a random (beautiful) BINGO card with the power of elm](./bingo)
     - [And view the source code](https://github.com/LegNBass/bingo)
 
